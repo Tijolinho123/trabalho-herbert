@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+menu {
+    height: 50px;
+}
+
+menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+menu li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+menu li:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 84, 145);
+}
+menu li:hover a{
+    color: white;
+}
+
+menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
